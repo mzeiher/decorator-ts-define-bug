@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "useDefineForClassFields": false
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "./lib/tslegacy.ts"
+    ]
+}
